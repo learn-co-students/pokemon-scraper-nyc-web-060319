@@ -37,8 +37,8 @@ class Pokemon
       :type => pokemon[2],
       :db => db
     }
-    puts pokemon[0]
-    puts "---------------------------"
+    # puts pokemon[0]
+    # puts "---------------------------"
     Pokemon.new(newHash)
   end
 
